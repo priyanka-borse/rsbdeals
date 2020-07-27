@@ -44,16 +44,17 @@
 <div class="col-sm-4 col-xd-4 col-md-4">
 		<div class = "panel panel-default"  style = "color:#383838" >
 			
-			 <div class="panel-heading">Category</div>
+			  <div class="panel-heading" style ="font-size:25px; background-color:#808080; color:#F5F5F5;">Category</div>
 				
-			<ul class = "list-group" >
-			  <li class = "list-group-item ">  <a href = "Groceries.php">Groceries</a></li>
-			  <li class = "list-group-item">  <a href = "electronics.php">Electronics</a></li>
-			  <li class = "list-group-item"> <a href = "fashion.php">Fashiont</a></li>
-			  <li class = "list-group-item"> <a href = "Seasonshopping.php">Season based shopping </a></li>
-			  <li class = "list-group-item"> <a href = "#">Deals of the days </li>
+			<ul class = "list-group " >
+			  <li class = "list-group-item ">  <a href = "Groceries.php" class="clslink" style = "color:#383838">Groceries</a></li>
+			  <li class = "list-group-item">  <a href = "electronics.php"  class="clslink" style = "color:#383838">Electronics</a></li>
+			  <li class = "list-group-item"> <a href = "fashion.php" class="clslink" style = "color:#383838">Fashion</a></li>
+			  <li class = "list-group-item"> <a href = "Seasonshopping.php" class="clslink" style = "color:#383838">Season based shopping </a></li>
+			  <li class = "list-group-item"> <a href = "#" class="clslink" style = "color:#383838">Deals of the days </li>
 			</ul>
-		</div>	
+			
+		</div>
 </div>	
 </div>	
 </div>	

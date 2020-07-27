@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<html lang="en">
+<head>
+  <title>RSB Online Deals</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="js/JSLib.js"></script>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-	<link rel="stylesheet" type="text/css" href="css/header.css" />
-    <title>RSB Online Deals</title>
-	<script>
-
+	
+	
+	
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
+	<script src="js/JSLib.js">
 	</script>
-<style>
-</style>
+
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+   
+
 
 </head>
 
@@ -41,13 +35,12 @@ include('header.php');
 $dbrsb = mysqli_connect("localhost","root","");
 mysqli_select_db($dbrsb,'rsb');
 
-
 ?>
 
 <div class="container"> 
 <div class="row">    
-	 <div class="col-sm-4 col-xd-4">
-	 <section>
+<div class="col-sm-4 col-xd-4 col-md-4">
+	 
 	<form class = "needs-validation myform" action="" name="form1"   method="POST"  enctype ="multipart/form-data">
 	<!--<input type="button" class="btn btn-info" value="Add Product" onclick="addProduct()">-->
 	
@@ -107,7 +100,7 @@ mysqli_select_db($dbrsb,'rsb');
 						</table>
 					</div>
 			</form>
-</section>
+
 			<?php
 		
 	if(isset($_POST["submit"]))
@@ -132,11 +125,11 @@ mysqli_select_db($dbrsb,'rsb');
 	?>
 
 			
-		</div>
+</div>
 				
 
-<div class="col-sm-8 col-xd-8 scrl" id= "allProduct" >
-<section>
+<div class="col-sm-8 col-xd-8  col-md-8" >
+
 <?php
 
 $query = mysqli_query($dbrsb,"select * from product order by id DESC");
@@ -170,15 +163,16 @@ while($result = mysqli_fetch_array($query))
 <?php
 }
 ?>
-</section>
+
+</div>
+ </div>
 </div>
  
 <?php 
-include('footer.php'); 
+include('footer.php');
 mysqli_close($dbrsb);
 ?>
 	
-</div>
-</div>
+
 </body>
 </html>

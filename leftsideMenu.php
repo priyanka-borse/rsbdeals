@@ -1,7 +1,7 @@
 
 		<div class = "panel panel-default"  style = "color:#383838" >
 			
-			  <div class="panel-heading" style ="font-size:25px; background-color:#808080; color:#F5F5F5	;">Category</div>
+			  <div class="panel-heading" style ="font-size:25px; background-color:#808080; color:#F5F5F5;">Category</div>
 				
 			<ul class = "list-group " >
 			  <li class = "list-group-item ">  <a href = "Groceries.php" class="clslink" style = "color:#383838">Groceries</a></li>
