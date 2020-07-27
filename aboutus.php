@@ -4,16 +4,22 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
-  <!--  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; media-src *" />-->
- 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="js/JSLib.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
     <title>RSB Online Deals</title>
 	<script>
 
@@ -27,24 +33,24 @@
 	<?php include "leftsideMenu.php" ?>
   </div>
  
-    <div class="col-sm-8 col-xd-8 scrl">
-	<h2>About us</h3>
+    <div class="col-sm-8 col-xd-8 " >
+	<h3>About us</h3>
 
-	<h6>RSBONLINE DEALS is a online platform where you can get amazing deals on electronics gadgets , 
+	<blockquote class="blockquote"> <h5 style = "color:#D3D3D3">RSBONLINE DEALS is a online platform where you can get amazing deals on electronics gadgets , 
 	fashionable clothes, groceries & many more daily items...!!! 
-	Our aim is to earn the client within you not the money...!!!</h6>
+	Our aim is to earn the client within you not the money...!!!<h5>
 	
-	<h4>Why RSB?</h4>
-	<h6>We continuously look for mega discount offers for our valuable customer & post on daily basis.
+	<h3>Why RSB?</h3>
+	<h5 style = "color:#D3D3D3">We continuously look for mega discount offers for our valuable customer & post on daily basis.
 
-	We  value your time , hence post high rated & genuine products.</h6>
+	We  value your time , hence post high rated & genuine products.<h5>
 	
-	<h4>Customized Deal</h4>
+	<h3>Customized Deal</h3>
 
-	<h6>We also work on customized deals. 
+	<h5 style = "color:#D3D3D3">We also work on customized deals. 
 	Just drop a mail on servetheclient@rsbonline.in of your requirement , our exerts will 
-	get back to you with best suitable product & additional discount from RSBonline.</h6>
-
+	get back to you with best suitable product & additional discount from RSBonline.<h5>
+	<blockquote>
 
 
     </div>

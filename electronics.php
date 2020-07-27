@@ -14,7 +14,8 @@
 	<script src="js/JSLib.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+    <title>RSB Online Deals</title>
 	<script src="js/JSLib.js"></script>
 	<script>
 	</script>
@@ -33,7 +34,8 @@ mysqli_select_db($dbrsb,'rsb');
 
 
 ?>
-
+<div class="container"> 
+<div class="row"> 
    
 	<div class="col-sm-4 col-xd-4">
 	<?php include "leftsideMenu.php" ?>
@@ -53,14 +55,22 @@ while($result = mysqli_fetch_array($query))
 
 	?>
 
-			<div class="column" id = "displayGroceries">
-				<div class="product-image">
-				<?php
-					echo "<img src=".$result['product_img']." alt='img'  width='100px ' height='100px'/>";
+			<div class = "gallery column">
+			
+			<a href = "deleteproduct.php?Id=<?php echo $result['Id']?>"><i class="fa fa-window-close fa-5x " aria-hidden="true" style="margin-left: 170px;font-size:20px" ></i></a>
+				
+				
+				<div class=" clsimg">
+				
+				<?php 
+				
+					echo "<img src=".$result['product_img']." alt='img'  width='100px ' height='100px'  class=' img-fluid w-100 zoom img-thumbnail'/>";
 					?>
-				<?php	//echo '<img src="data:upload_img/jpg;base64,'.base64_encode($result['product_img'] ).'" height="200" width="200"/>';?>
-						<p><?php echo $result["product_delts"] ;?></p>   
+			
+						
 				</div>
+				<span data-role="recommend-description-snippet" class = "desc line-truncate" data-line-truncate="5"><?php echo $result["product_delts"] ;?></span>
+				
 			</div>
 		
 
