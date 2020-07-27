@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html><head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<html lang="en">
+<head>
+  <title>RSB Online Deals</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</script>
+	
+	
+	
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
+	<script src="js/JSLib.js">
+	</script>
 
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="js/JSLib.js"></script>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-	<link rel="stylesheet" type="text/css" href="css/header.css" />
-    <title>RSB Online Deals</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+   
 	<script>
 
 	</script>
 </head>
 <body>
 <?php include('header.php'); ?>
-<div class = "container">
-</div>
+<div class="container"> 
+<div class="row"> 
  <div class="col-sm-4 col-xd-4">
 	<?php include "leftsideMenu.php" ?>
-  </div>
+ </div>
  
     <div class="col-sm-8 col-xd-8 " >
 	<h3>About us</h3>
 
-	<blockquote class="blockquote"> <h5 style = "color:#D3D3D3">RSBONLINE DEALS is a online platform where you can get amazing deals on electronics gadgets , 
+	 <h5 style = "color:#808080">RSBONLINE DEALS is a online platform where you can get amazing deals on electronics gadgets , 
 	fashionable clothes, groceries & many more daily items...!!! 
 	Our aim is to earn the client within you not the money...!!!<h5>
 	
 	<h3>Why RSB?</h3>
-	<h5 style = "color:#D3D3D3">We continuously look for mega discount offers for our valuable customer & post on daily basis.
+	<h5 style = "color:#808080">We continuously look for mega discount offers for our valuable customer & post on daily basis.
 
 	We  value your time , hence post high rated & genuine products.<h5>
 	
 	<h3>Customized Deal</h3>
 
-	<h5 style = "color:#D3D3D3">We also work on customized deals. 
+	<h5 style = "color:#808080">We also work on customized deals. 
 	Just drop a mail on servetheclient@rsbonline.in of your requirement , our exerts will 
 	get back to you with best suitable product & additional discount from RSBonline.<h5>
-	<blockquote>
+	
 
 
     </div>
